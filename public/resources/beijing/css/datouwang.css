@@ -1,0 +1,17 @@
+@charset "utf-8";
+/* 代码整理：大头网 www.datouwang.com */
+/**{margin:0;padding:0;list-style-type:none;}*/
+/*a,img{border:0;}*/
+/*a{text-decoration:none;color:#333;}*/
+/*body{color:#333;font-family:'Microsoft YaHei', Verdana, Arial, Helvetica, sans-serif;line-height:20px;overflow-x:hidden;width:100%;height:2000px;font-size:14px;}*/
+/*.clear:after{content:'\20';display:block;height:0;clear:both;visibility:hidden;}*/
+
+/*固定的悬浮窗*/
+.yb_conct{position:fixed;z-index:9999999;top:200px;right:-127px;cursor:pointer;transition:all .3s ease;}
+.yb_bar ul li{width:180px;height:53px;font:16px/53px 'Microsoft YaHei';color:#fff;text-indent:54px;margin-bottom:3px;border-radius:3px;transition:all .5s ease;overflow:hidden;}
+.yb_bar .yb_top{background:#ff4a00 url(../images/fixCont.png) no-repeat 0 0;}
+.yb_bar .yb_phone{background:#ff4a00 url(../images/fixCont.png) no-repeat 0 -57px;}
+.yb_bar .yb_QQ{text-indent:0;background:#ff4a00 url(../images/fixCont.png) no-repeat 0 -113px;}
+.yb_bar .yb_ercode{background:#ff4a00 url(../images/fixCont.png) no-repeat 0 -169px;}
+.hd_qr{padding:0 29px 25px 29px;}
+.yb_QQ a{display:block;text-indent:54px;width:100%;height:100%;color:#fff;}
